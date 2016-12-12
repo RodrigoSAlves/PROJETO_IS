@@ -10,7 +10,6 @@ namespace SmartH2O_DU
     {   
         public static String DU_NODE_NAME = "SENSOR_NODE";
         public static MqttClient m_cClient = new MqttClient(IPAddress.Parse("127.0.0.1"));
-        public
         
         static void Main(string[] args)
         {

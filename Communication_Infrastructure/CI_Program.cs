@@ -51,6 +51,7 @@ namespace Communication_Infrastructure
             if (e.Topic == DU_NODE_NAME)
             {
                 messageReceived(e.Message);
+                m_cClient.Publish(ALARM_NODE_NAME, e.Message);
             }
         }
 

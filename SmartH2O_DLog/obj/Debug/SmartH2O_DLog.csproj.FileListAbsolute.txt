@@ -1,0 +1,7 @@
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.exe.config
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.exe
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.pdb
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\obj\Debug\SmartH2O_DLog.exe
+C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_DLog\obj\Debug\SmartH2O_DLog.pdb

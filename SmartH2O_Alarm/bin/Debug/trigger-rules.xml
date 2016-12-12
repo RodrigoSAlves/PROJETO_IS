@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sensors>
+  <sensor tipo="PH">
+    
+      <conditions>
+        <condition ativo="false" valorReferencia="6" operator="less"></condition>
+      </conditions>
+  </sensor>
+ 
+  <sensor tipo="NH3">
+   
+    <conditions> 
+      <condition ativo="false" valorReferencia="3" operator="greater"></condition>
+      <condition ativo="true" valorReferencia="1" operator="less"></condition>
+    </conditions>
+  </sensor>
+
+  <sensor tipo="CI2">
+    
+    <conditions>
+      <condition ativo="true" valorReferencia="7" operator="between" valorReferencia2="11"></condition>
+    </conditions>
+  </sensor>
+
+</sensors>
+
