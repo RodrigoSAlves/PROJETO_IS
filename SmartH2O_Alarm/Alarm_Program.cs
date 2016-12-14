@@ -11,13 +11,18 @@ using uPLibrary.Networking.M2Mqtt.Messages;
 
 namespace SmartH2O_Alarm
 {
-    class Program
+    class Alarm_Program
     {
+
+        public static String DU_NODE_NAME = "SENSOR_NODE";
+        private static string[] m_strSensorInfo = { DU_NODE_NAME };
+        public static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };
+
         static void Main(string[] args)
         {
             //Console.WriteLine("bsdaofgof");
             MqttClient dataClient = new MqttClient("127.0.0.1");
-            string[] m_strSensorInfo = { "ALARM_NODE" };
+            
 
             dataClient.Connect(Guid.NewGuid().ToString());
 
@@ -29,7 +34,7 @@ namespace SmartH2O_Alarm
 
             dataClient.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
             //Subscribe to topics
-            byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };//QoS
+            //QoS
             dataClient.Subscribe(m_strSensorInfo, qosLevels);
 
             System.Threading.Thread.Sleep(10);
@@ -47,11 +52,10 @@ namespace SmartH2O_Alarm
 
         private static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
-            Console.WriteLine("fgeougqoeufg");
             String[] sensor = new String[4];
             int i = 0;
             String strTemp = Encoding.UTF8.GetString(e.Message);
-            Console.WriteLine(strTemp + "Received");
+            Console.WriteLine("Recieved <--->"+strTemp+"\n");
 
             XmlDocument docReceived = new XmlDocument();
             docReceived.LoadXml(strTemp);
@@ -69,7 +73,6 @@ namespace SmartH2O_Alarm
                 }
                 
             }
-            
 
             string xml = AppDomain.CurrentDomain.BaseDirectory.ToString() + "trigger-rules.xml";
 
@@ -187,9 +190,6 @@ namespace SmartH2O_Alarm
                 dataClient.Disconnect(); //Free process and process's resources
             }
         }
-
-
-
 
     }
 }

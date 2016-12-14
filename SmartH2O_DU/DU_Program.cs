@@ -17,7 +17,7 @@ namespace SmartH2O_DU
             
             SensorNodeDll.SensorNodeDll dll = new SensorNodeDll.SensorNodeDll();
             dll.Initialize(GeneratedMessage, 1000);
-            
+            Console.ReadKey();
         }
 
         public DU_Program() {
@@ -35,26 +35,21 @@ namespace SmartH2O_DU
             XmlDocument doc = new XmlDocument();
             XmlNode docNode = doc.CreateXmlDeclaration("1.0", "UTF-8", null);
             doc.AppendChild(docNode);
-            XmlNode sensorNode = doc.CreateElement("SensorNode");
-            doc.AppendChild(sensorNode);
+            XmlElement parent = doc.CreateElement("sensor");
+            parent.SetAttribute("type", messages[1]);
 
-            //numero de indice         //moleculas            //ph              //data(para as estatisticas)
-            XmlElement number = doc.CreateElement("id");
-            number.InnerText = messages[0];
+            XmlElement entry = doc.CreateElement("entry");
+            entry.SetAttribute("value", messages[2]);
+            DateTime date = DateTime.Now;
+            entry.SetAttribute("day", "" + date.Day);
+            entry.SetAttribute("month", "" + date.Month);
+            entry.SetAttribute("year", "" + date.Year);
+            entry.SetAttribute("hour", "" + date.Hour);
+            entry.SetAttribute("minute", "" + date.Minute);
+            entry.SetAttribute("milis", "" +date.Millisecond);
 
-            XmlElement molecule = doc.CreateElement("molecule");
-            molecule.InnerText = messages[1];
-
-            XmlElement ph = doc.CreateElement("value");
-            ph.InnerText = messages[2];
-
-            XmlElement data = doc.CreateElement("Data");
-            data.InnerText = DateTime.Now.ToString("dd/mm/yyyy hh:mm:ss");
-
-            sensorNode.AppendChild(number);
-            sensorNode.AppendChild(molecule);
-            sensorNode.AppendChild(ph);
-            sensorNode.AppendChild(data);
+            parent.AppendChild(entry);
+            doc.AppendChild(parent);
 
             return doc.OuterXml;
         }

@@ -44,7 +44,6 @@ namespace Communication_Infrastructure
 
         static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
-
             //RECIEVED A MESSAGE
             Console.WriteLine("Received = " + Encoding.UTF8.GetString(e.Message) + " on topic " + e.Topic + "\n");
 
@@ -60,7 +59,6 @@ namespace Communication_Infrastructure
             XmlDocument doc = new XmlDocument();
             String xml = Encoding.UTF8.GetString(message);
             doc.LoadXml(xml);
-            Console.WriteLine(doc.OuterXml);
             XmlNode nome = doc.SelectSingleNode("/sensor/name");
         }
        

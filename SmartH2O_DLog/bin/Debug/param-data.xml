@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <pH>
+    <entry value="5.0" day="14" month="12" year="2016" hour="22" minute="54" milis="916" />
+    <entry value="6.6" day="14" month="12" year="2016" hour="22" minute="54" milis="918" />
+    <entry value="6.5" day="14" month="12" year="2016" hour="22" minute="54" milis="920" />
+    <entry value="5.0" day="14" month="12" year="2016" hour="22" minute="54" milis="922" />
+    <entry value="5.3" day="14" month="12" year="2016" hour="22" minute="54" milis="925" />
+    <entry value="6.8" day="14" month="12" year="2016" hour="22" minute="55" milis="929" />
+    <entry value="6.0" day="14" month="12" year="2016" hour="22" minute="55" milis="931" />
+    <entry value="6.2" day="14" month="12" year="2016" hour="22" minute="55" milis="933" />
+    <entry value="6.7" day="14" month="12" year="2016" hour="22" minute="55" milis="935" />
+    <entry value="5.5" day="14" month="12" year="2016" hour="22" minute="55" milis="937" />
+    <entry value="5.4" day="14" month="12" year="2016" hour="22" minute="55" milis="941" />
+    <entry value="5.0" day="14" month="12" year="2016" hour="22" minute="55" milis="942" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="55" milis="944" />
+    <entry value="6.4" day="14" month="12" year="2016" hour="22" minute="55" milis="946" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="55" milis="948" />
+    <entry value="6.4" day="14" month="12" year="2016" hour="22" minute="55" milis="950" />
+    <entry value="5.8" day="14" month="12" year="2016" hour="22" minute="55" milis="951" />
+    <entry value="5.5" day="14" month="12" year="2016" hour="22" minute="55" milis="961" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="55" milis="963" />
+    <entry value="6.2" day="14" month="12" year="2016" hour="22" minute="55" milis="965" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="55" milis="968" />
+    <entry value="5.1" day="14" month="12" year="2016" hour="22" minute="55" milis="971" />
+    <entry value="5.2" day="14" month="12" year="2016" hour="22" minute="55" milis="975" />
+    <entry value="6.6" day="14" month="12" year="2016" hour="22" minute="55" milis="977" />
+    <entry value="6.5" day="14" month="12" year="2016" hour="22" minute="56" milis="2" />
+    <entry value="6.7" day="14" month="12" year="2016" hour="22" minute="56" milis="11" />
+    <entry value="5.2" day="14" month="12" year="2016" hour="22" minute="56" milis="13" />
+    <entry value="6.4" day="14" month="12" year="2016" hour="22" minute="56" milis="16" />
+    <entry value="5.8" day="14" month="12" year="2016" hour="22" minute="56" milis="19" />
+    <entry value="5.8" day="14" month="12" year="2016" hour="22" minute="56" milis="22" />
+    <entry value="6.1" day="14" month="12" year="2016" hour="22" minute="56" milis="23" />
+    <entry value="6.4" day="14" month="12" year="2016" hour="22" minute="56" milis="28" />
+    <entry value="6.0" day="14" month="12" year="2016" hour="22" minute="56" milis="30" />
+    <entry value="6.0" day="14" month="12" year="2016" hour="22" minute="56" milis="34" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="56" milis="36" />
+    <entry value="5.8" day="14" month="12" year="2016" hour="22" minute="56" milis="38" />
+    <entry value="6.5" day="14" month="12" year="2016" hour="22" minute="56" milis="42" />
+    <entry value="5.2" day="14" month="12" year="2016" hour="22" minute="57" milis="994" />
+    <entry value="6.8" day="14" month="12" year="2016" hour="22" minute="57" milis="995" />
+    <entry value="6.5" day="14" month="12" year="2016" hour="22" minute="57" milis="997" />
+    <entry value="6.5" day="14" month="12" year="2016" hour="22" minute="57" milis="16" />
+    <entry value="5.0" day="14" month="12" year="2016" hour="22" minute="57" milis="18" />
+    <entry value="6.3" day="14" month="12" year="2016" hour="22" minute="57" milis="19" />
+    <entry value="5.2" day="14" month="12" year="2016" hour="22" minute="57" milis="21" />
+    <entry value="5.7" day="14" month="12" year="2016" hour="22" minute="57" milis="23" />
+    <entry value="6.1" day="14" month="12" year="2016" hour="22" minute="57" milis="25" />
+    <entry value="5.6" day="14" month="12" year="2016" hour="22" minute="57" milis="28" />
+    <entry value="5.1" day="14" month="12" year="2016" hour="22" minute="57" milis="31" />
+    <entry value="6.3" day="14" month="12" year="2016" hour="22" minute="57" milis="33" />
+    <entry value="5.3" day="14" month="12" year="2016" hour="22" minute="57" milis="36" />
+    <entry value="6.1" day="14" month="12" year="2016" hour="22" minute="58" milis="38" />
+    <entry value="5.5" day="14" month="12" year="2016" hour="22" minute="58" milis="40" />
+    <entry value="6.6" day="14" month="12" year="2016" hour="22" minute="58" milis="46" />
+    <entry value="5.5" day="14" month="12" year="2016" hour="22" minute="58" milis="48" />
+  </pH>
+  <Cl2>
+    <entry value="11.3" day="14" month="12" year="2016" hour="22" minute="57" milis="993" />
+    <entry value="9.0" day="14" month="12" year="2016" hour="22" minute="57" milis="995" />
+    <entry value="10.8" day="14" month="12" year="2016" hour="22" minute="57" milis="997" />
+    <entry value="9.7" day="14" month="12" year="2016" hour="22" minute="57" milis="15" />
+    <entry value="10.3" day="14" month="12" year="2016" hour="22" minute="57" milis="17" />
+    <entry value="7.4" day="14" month="12" year="2016" hour="22" minute="57" milis="19" />
+    <entry value="11.2" day="14" month="12" year="2016" hour="22" minute="57" milis="20" />
+    <entry value="10.1" day="14" month="12" year="2016" hour="22" minute="57" milis="23" />
+    <entry value="11.1" day="14" month="12" year="2016" hour="22" minute="57" milis="25" />
+    <entry value="9.3" day="14" month="12" year="2016" hour="22" minute="57" milis="27" />
+    <entry value="9.4" day="14" month="12" year="2016" hour="22" minute="57" milis="30" />
+    <entry value="8.2" day="14" month="12" year="2016" hour="22" minute="57" milis="32" />
+    <entry value="8.2" day="14" month="12" year="2016" hour="22" minute="57" milis="35" />
+    <entry value="8.6" day="14" month="12" year="2016" hour="22" minute="58" milis="37" />
+    <entry value="8.8" day="14" month="12" year="2016" hour="22" minute="58" milis="40" />
+    <entry value="9.1" day="14" month="12" year="2016" hour="22" minute="58" milis="42" />
+    <entry value="8.5" day="14" month="12" year="2016" hour="22" minute="58" milis="47" />
+  </Cl2>
+  <NH3>
+    <entry value="1.14" day="14" month="12" year="2016" hour="22" minute="57" milis="984" />
+    <entry value="1.5" day="14" month="12" year="2016" hour="22" minute="57" milis="994" />
+    <entry value="1.89" day="14" month="12" year="2016" hour="22" minute="57" milis="996" />
+    <entry value="1.47" day="14" month="12" year="2016" hour="22" minute="57" milis="2" />
+    <entry value="1.38" day="14" month="12" year="2016" hour="22" minute="57" milis="16" />
+    <entry value="1.31" day="14" month="12" year="2016" hour="22" minute="57" milis="18" />
+    <entry value="1.60" day="14" month="12" year="2016" hour="22" minute="57" milis="20" />
+    <entry value="1.33" day="14" month="12" year="2016" hour="22" minute="57" milis="22" />
+    <entry value="1.31" day="14" month="12" year="2016" hour="22" minute="57" milis="24" />
+    <entry value="1.89" day="14" month="12" year="2016" hour="22" minute="57" milis="26" />
+    <entry value="1.56" day="14" month="12" year="2016" hour="22" minute="57" milis="29" />
+    <entry value="1.55" day="14" month="12" year="2016" hour="22" minute="57" milis="32" />
+    <entry value="1.98" day="14" month="12" year="2016" hour="22" minute="57" milis="34" />
+    <entry value="1.97" day="14" month="12" year="2016" hour="22" minute="58" milis="36" />
+    <entry value="1.71" day="14" month="12" year="2016" hour="22" minute="58" milis="39" />
+    <entry value="1.71" day="14" month="12" year="2016" hour="22" minute="58" milis="41" />
+    <entry value="1.79" day="14" month="12" year="2016" hour="22" minute="58" milis="46" />
+    <entry value="1.49" day="14" month="12" year="2016" hour="22" minute="58" milis="49" />
+  </NH3>
+</parameters>
