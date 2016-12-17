@@ -13,9 +13,9 @@ namespace Communication_Infrastructure
         public static String ALARM_NODE_NAME = "ALARM_NODE";
         public static String LOGGER_NODE_NAME = "LOGGER_NODE";
 
-        private static string[] m_strTopicsInfo = {DU_NODE_NAME, ALARM_NODE_NAME, LOGGER_NODE_NAME};
+        private static string[] m_strTopicsInfo = {DU_NODE_NAME, ALARM_NODE_NAME};
         private static MqttClient m_cClient = new MqttClient(IPAddress.Parse("127.0.0.1"));
-        private static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };
+        private static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE};
 
 
         static void Main(string[] args)
@@ -50,7 +50,6 @@ namespace Communication_Infrastructure
             if (e.Topic == DU_NODE_NAME)
             {
                 messageReceived(e.Message);
-                m_cClient.Publish(ALARM_NODE_NAME, e.Message);
             }
         }
 

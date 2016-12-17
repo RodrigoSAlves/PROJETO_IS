@@ -34,6 +34,7 @@ namespace SmartH2O_DLog
         private void init()
         {
             initLogXMLFiles();
+
             temp_data = new XmlDocument();
             m_cClient.Connect(Guid.NewGuid().ToString());
             if (!m_cClient.IsConnected)
@@ -54,7 +55,6 @@ namespace SmartH2O_DLog
             if (!File.Exists(ALARM_LOG_FILE_NAME))
             {
                 createBasicAlarmXMLFile();
-
             }
             else {
                 alarms_data = new XmlDocument();
@@ -78,6 +78,9 @@ namespace SmartH2O_DLog
             XmlDeclaration declaration = alarms_data.CreateXmlDeclaration("1.0", "utf-8", null);
             alarms_data.AppendChild(declaration);
             XmlElement parent_alarms = alarms_data.CreateElement("alarms");
+            parent_alarms.AppendChild(alarms_data.CreateElement("pH"));
+            parent_alarms.AppendChild(alarms_data.CreateElement("Cl2"));
+            parent_alarms.AppendChild(alarms_data.CreateElement("NH3"));
             alarms_data.AppendChild(parent_alarms);
             alarms_data.Save(ALARM_LOG_FILE_NAME);
         }
@@ -93,6 +96,7 @@ namespace SmartH2O_DLog
             parent_paramenter.AppendChild(params_data.CreateElement("NH3"));
             
             params_data.AppendChild(parent_paramenter);
+
             params_data.Save(PARAM_LOG_FILE_NAME);
         }
 
@@ -115,26 +119,26 @@ namespace SmartH2O_DLog
         private void recievedDUMessage(byte[] message)
         {
             temp_data.LoadXml(Encoding.UTF8.GetString(message));
-            String param_type = temp_data.SelectSingleNode("/sensor").Attributes["type"].InnerText;
+            String str_sensorType = temp_data.SelectSingleNode("/sensor").Attributes["type"].Value;
 
-            switch (param_type)
+            switch (str_sensorType)
             {
                 case "PH":
                     {
-                        XmlElement list_pH = (XmlElement)params_data.SelectSingleNode("/parameters/pH");
-                        list_pH.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
+                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/pH");
+                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
                     }
                     break;
                 case "NH3":
                     {
-                        XmlElement list_pH = (XmlElement)params_data.SelectSingleNode("/parameters/NH3");
-                        list_pH.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
+                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/NH3");
+                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
                     }
                     break;
                 case "CI2":
                     {
-                        XmlElement list_pH = (XmlElement)params_data.SelectSingleNode("/parameters/Cl2");
-                        list_pH.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
+                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/Cl2");
+                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
                     }
                     break;
             }
@@ -143,13 +147,35 @@ namespace SmartH2O_DLog
 
         private void recievedAlarmMessage(byte[] message)
         {
+            
+            temp_data.LoadXml(Encoding.UTF8.GetString(message));
+            String str_sensorType = temp_data.SelectSingleNode("/alarm").Attributes["type"].Value;
 
+            switch (str_sensorType)
+            {
+                case "PH":
+                    {
+                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/pH");
+                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
+                    }
+                    break;
+                case "NH3":
+                    {
+                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/NH3");
+                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
+
+                    }
+                    break;
+                case "CI2":
+                    {
+                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/Cl2");
+                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
+
+                    }
+                    break;
+            }
+            alarms_data.Save(ALARM_LOG_FILE_NAME);
         }
-
-        
-
-        
-
         
     }
 }

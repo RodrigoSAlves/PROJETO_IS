@@ -15,81 +15,69 @@ namespace SmartH2O_Alarm
     {
 
         public static String DU_NODE_NAME = "SENSOR_NODE";
+        public static String ALARM_NODE_NAME = "ALARM_NODE";
         private static string[] m_strSensorInfo = { DU_NODE_NAME };
-        public static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };
+        private static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };
+        private static MqttClient m_cClient = new MqttClient("127.0.0.1");
+        private XmlDocument temp_doc;
 
         static void Main(string[] args)
         {
-            //Console.WriteLine("bsdaofgof");
-            MqttClient dataClient = new MqttClient("127.0.0.1");
-            
+            Alarm_Program program = new Alarm_Program();
+            Console.ReadKey();        
 
-            dataClient.Connect(Guid.NewGuid().ToString());
+        }
 
-            if (!dataClient.IsConnected)
+        public Alarm_Program()
+        {
+            temp_doc = new XmlDocument();
+            m_cClient.Connect(Guid.NewGuid().ToString());
+
+            if (!m_cClient.IsConnected)
             {
                 Console.WriteLine("Error connecting to message broker...");
                 return;
             }
 
-            dataClient.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
+            m_cClient.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
             //Subscribe to topics
             //QoS
-            dataClient.Subscribe(m_strSensorInfo, qosLevels);
+            m_cClient.Subscribe(m_strSensorInfo, qosLevels);
 
             System.Threading.Thread.Sleep(10);
 
             Console.ReadKey();
 
-            if (dataClient.IsConnected)
+            if (m_cClient.IsConnected)
             {
-                dataClient.Unsubscribe(m_strSensorInfo); //Put this in a button to see notif!
-                dataClient.Disconnect(); //Free process and process's resources
+                m_cClient.Unsubscribe(m_strSensorInfo); //Put this in a button to see notif!
+                m_cClient.Disconnect(); //Free process and process's resources
             }
-
-
         }
 
-        private static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
+        private void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
-            String[] sensor = new String[4];
-            int i = 0;
-            String strTemp = Encoding.UTF8.GetString(e.Message);
-            Console.WriteLine("Recieved <--->"+strTemp+"\n");
+            temp_doc.LoadXml(Encoding.UTF8.GetString(e.Message));
 
-            XmlDocument docReceived = new XmlDocument();
-            docReceived.LoadXml(strTemp);
+            String str_sensorType = temp_doc.SelectSingleNode("/sensor").Attributes["type"].Value;
+            String str_value = temp_doc.SelectSingleNode("/sensor/entry").Attributes["value"].Value.Replace(".", ",");
 
-            XmlNodeList sensorsList = docReceived.GetElementsByTagName("SENSOR_NODE");
+            float sensor_value = float.Parse(str_value);
 
-            foreach(XmlNode x in sensorsList)
-            {
-                XmlNodeList dataList = x.ChildNodes;
-                    foreach(XmlNode y in dataList)
-                {
-                    sensor[i] = y.InnerText;
-                    Console.WriteLine(sensor[i]);
-                    i++;
-                }
-                
-            }
-
-            string xml = AppDomain.CurrentDomain.BaseDirectory.ToString() + "trigger-rules.xml";
-
+            //Load Rules 
+            string xml_triggerRules = AppDomain.CurrentDomain.BaseDirectory.ToString() + "trigger-rules.xml";
             XmlDocument doc = new XmlDocument();
-
-            doc.Load(xml);
-
+            doc.Load(xml_triggerRules);
             XmlElement root = doc.DocumentElement;
-
             XmlNodeList nodeList = root.ChildNodes;
 
-            String replaced = sensor[2].Replace(',', ',');
+            
 
+            //Check for conditions
             foreach (XmlNode l in nodeList)
             {
 
-                if (l.Attributes["tipo"].Value == sensor[1])
+                if (l.Attributes["tipo"].Value == str_sensorType)
                 {
                     XmlNodeList constrains = l.ChildNodes;
 
@@ -101,46 +89,44 @@ namespace SmartH2O_Alarm
                         {
                             if (con.Attributes["ativo"].Value == "true")
                             {
-                                float value = float.Parse(con.Attributes["valorReferencia"].Value);
-                                String alarmCondition;
-                                float dataValue = float.Parse(replaced);
+                                float ref_value = float.Parse(con.Attributes["valorReferencia"].Value);
                                 string operador = con.Attributes["operator"].Value;
 
                                 if (operador == "equals")
                                 {
-                                    if (dataValue == value)
+                                    if (sensor_value == ref_value)
                                     {
-                                        alarmCondition = "Value received (" + dataValue.ToString() + ") is equal to reference value (" + value.ToString() + ")";
-                                        publishAlarms(strTemp, alarmCondition);
-                                        Console.WriteLine("Alarm Triggered" + sensor[1]);
+                                        String[] conditionTriggered = {operador, ""+ref_value, ""};
+                                        publishAlarms(str_sensorType, temp_doc.OuterXml, conditionTriggered);
+                                        Console.WriteLine("Alarm Triggered:" + conditionTriggered[0] + " - " + conditionTriggered[1] + " - " + conditionTriggered[2]);
                                     }
                                 }
                                 else if (operador == "less")
                                 {
-                                    if (dataValue < value)
+                                    if (sensor_value < ref_value)
                                     {
-                                        alarmCondition = "Value received (" + dataValue.ToString() + ") is less than reference value (" + value.ToString() + ")";
-                                        publishAlarms(strTemp, alarmCondition);
-                                        Console.WriteLine("Alarm Triggered" + sensor[1]);
+                                        String[] conditionTriggered = { operador, "" + ref_value, "" };
+                                        publishAlarms(str_sensorType, temp_doc.OuterXml, conditionTriggered);
+                                        Console.WriteLine("Alarm Triggered:" + conditionTriggered[0] + " - " + conditionTriggered[1] + " - " + conditionTriggered[2]);
                                     }
                                 }
                                 else if (operador == "greater")
                                 {
-                                    if (dataValue > value)
+                                    if (sensor_value > ref_value)
                                     {
-                                        alarmCondition = "Value received (" + dataValue.ToString() + ") is greater than reference value (" + value.ToString() + ")";
-                                        publishAlarms(strTemp, alarmCondition);
-                                        Console.WriteLine("Alarm Triggered" + sensor[1]);
+                                        String[] conditionTriggered = { operador, "" + ref_value, "" };
+                                        publishAlarms(str_sensorType, temp_doc.OuterXml, conditionTriggered);
+                                        Console.WriteLine("Alarm Triggered:" + conditionTriggered[0] + " - " + conditionTriggered[1] + " - " + conditionTriggered[2]);
                                     }
                                 }
                                 else if (operador == "between")
                                 {
-                                    int value2 = int.Parse(con.Attributes["valorReferencia2"].Value);
-                                    if (dataValue > value && dataValue < value2)
+                                    int ref_value2 = int.Parse(con.Attributes["valorReferencia2"].Value);
+                                    if (sensor_value > ref_value && sensor_value < ref_value2)
                                     {
-                                        alarmCondition = "Value received (" + dataValue.ToString() + ") is between reference value (" + value.ToString() + ") and value (" + value2 + ")";
-                                        publishAlarms(strTemp, alarmCondition);
-                                        Console.WriteLine("Alarm Triggered" + sensor[1]);
+                                        String[] conditionTriggered = { operador, "" + ref_value, "" + ref_value2 };
+                                        publishAlarms(str_sensorType, temp_doc.OuterXml, conditionTriggered);
+                                        Console.WriteLine("Alarm Triggered:" + conditionTriggered[0] + " - " + conditionTriggered[1] + " - " + conditionTriggered[2]);
                                     }
                                 }
                                 else
@@ -156,39 +142,37 @@ namespace SmartH2O_Alarm
 
         }
 
-        public static void publishAlarms(String stringXml, String alarm)
+        public static void publishAlarms(String sensorType, String xmlMessage, String[] conditionTriggered)
         {
-            XmlDocument doc = new XmlDocument();
-            doc.LoadXml(stringXml);
+            XmlDocument message = new XmlDocument();
+            message.LoadXml(xmlMessage);
 
-            MqttClient dataClient = new MqttClient("127.0.0.1");
-            string[] m_strSensorInfo = { "ALARM_NODE" };
+            XmlDocument publishDoc = new XmlDocument();
+            XmlNode declaration = publishDoc.CreateXmlDeclaration("1.0", "UTF-8", null);
+            XmlElement alarm = publishDoc.CreateElement("alarm");
+            alarm.SetAttribute("type", sensorType);
+            XmlElement entry = (XmlElement) publishDoc.ImportNode(message.SelectSingleNode("/sensor/entry"), false);
+            alarm.AppendChild(entry);
+           
+            XmlElement condition = publishDoc.CreateElement("condition");
+            condition.SetAttribute("condition", conditionTriggered[0]);
+            condition.SetAttribute("trigger_value", conditionTriggered[1]);
+            if (!(conditionTriggered[2].Length == 0))
+                condition.SetAttribute("trigger_value2", conditionTriggered[2]);
 
-            dataClient.Connect(Guid.NewGuid().ToString());
+            alarm.AppendChild(condition);
 
-            if (!dataClient.IsConnected)
+            publishDoc.AppendChild(declaration);
+            publishDoc.AppendChild(alarm);
+
+            if (!m_cClient.IsConnected)
             {
                 Console.WriteLine("Error connecting to message broker...");
                 return;
             }
+            Console.WriteLine(publishDoc.OuterXml);
+            m_cClient.Publish(ALARM_NODE_NAME, Encoding.UTF8.GetBytes(publishDoc.OuterXml));
 
-            XmlElement alarmCondition = doc.CreateElement("alarmCondition");
-            alarmCondition.InnerText = alarm;
-
-            doc.AppendChild(alarmCondition);
-
-            
-            
-            dataClient.Publish("ALARM_NODE", Encoding.UTF8.GetBytes(doc.OuterXml));
-
-            System.Threading.Thread.Sleep(10);
-
-
-            if (dataClient.IsConnected)
-            {
-                dataClient.Unsubscribe(m_strSensorInfo); //Put this in a button to see notif!
-                dataClient.Disconnect(); //Free process and process's resources
-            }
         }
 
     }

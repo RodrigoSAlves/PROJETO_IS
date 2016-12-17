@@ -53,12 +53,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SmartH2ODataUploader\SmartH2ODataUploader.csproj">
-      <Project>{b4167584-e108-45db-aa31-164475f7d23f}</Project>
-      <Name>SmartH2ODataUploader</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
