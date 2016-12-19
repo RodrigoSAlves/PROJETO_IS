@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sensors" type="sensorsType">
+  </xs:element>
+  <xs:complexType name="sensorsType">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="sensor" type="sensorType">
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sensorType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="name" type="xs:string" />
+      <xs:element name="value" type="valueType" />
+      <xs:element name="dateRead" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:simpleType name="valueType">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="5" />
+      <xs:maxInclusive value="15" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>

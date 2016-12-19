@@ -6,3 +6,6 @@ c:\users\eu\documents\visual studio 2015\Projects\Projeto_IS\Communication_Infra
 c:\users\eu\documents\visual studio 2015\Projects\Projeto_IS\Communication_Infrastructure\bin\Debug\M2Mqtt.Net.pdb
 c:\users\eu\documents\visual studio 2015\Projects\Projeto_IS\Communication_Infrastructure\obj\Debug\Communication_Infrastructure.exe
 c:\users\eu\documents\visual studio 2015\Projects\Projeto_IS\Communication_Infrastructure\obj\Debug\Communication_Infrastructure.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Communication_Infrastructure\bin\Debug\Communication_Infrastructure.exe.config
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Communication_Infrastructure\obj\Debug\Communication_Infrastructure.exe
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Communication_Infrastructure\obj\Debug\Communication_Infrastructure.pdb
