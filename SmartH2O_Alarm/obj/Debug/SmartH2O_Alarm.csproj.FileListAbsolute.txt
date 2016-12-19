@@ -48,3 +48,11 @@ C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_Alarm\bin\
 C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.dll
 C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.pdb
 C:\Users\Eu\Documents\Visual Studio 2015\Projects\Projeto_IS\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.exe.config
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.exe
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.exe
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.csprojResolveAssemblyReference.cache
