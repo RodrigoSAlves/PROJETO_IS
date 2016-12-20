@@ -79,8 +79,24 @@ namespace SmartH2O_Service.Controllers
             }
             parameter_logger.Save(PARAM_LOG_FILE_PATH);
             
-            return Ok();
+            return Ok("test");
         }
 
+        [Route("parameter/{type}/{day}/{month}/{year}")]
+        public IHttpActionResult getHourSummarizedParameterInfo(string type, int day, int month, int year) {
+            return Ok("test");
+        }
+
+        [Route("parameter/{type}/{day1}/{month1}/{year1}/{day2}/{month2}/{year2}")]
+        public IHttpActionResult getDailySummarizedParameterInfoBetweenDates(string type, int day, int month, int year ,int day2, int month2, int year2)
+        {
+            return Ok("test");
+        }
+
+        [Route("parameter/{type}/{week}")]
+        public IHttpActionResult getWeeklySummarizedParameterInfo(string type, int week)
+        {
+            return Ok("test");
+        }
     }
 }

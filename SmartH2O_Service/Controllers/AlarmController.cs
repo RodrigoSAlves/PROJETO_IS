@@ -84,5 +84,19 @@ namespace SmartH2O_Service.Controllers
             return Ok();
         }
 
+        [Route("alarm/{day}/{month}/{year}")]
+        public IHttpActionResult getAlarmByDay(int day, int month, int year) {
+
+            return Ok();
+        }
+
+        [Route("alarm/{day1}/{month1}/{year1}/{day2}/{month2}/{year2}")]
+        public IHttpActionResult getAlarmsBetweenTwoDates(int day1, int month1, int year1, int day2, int month2, int year2)
+        {
+            
+            return Ok();
+        }
+
+
     }
 }
