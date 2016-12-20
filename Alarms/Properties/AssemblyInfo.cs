@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SmartH2O_Alarm")]
+[assembly: AssemblyTitle("Alarms")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SmartH2O_Alarm")]
+[assembly: AssemblyProduct("Alarms")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b98593ed-aaa3-42c4-9d4f-5a1794150b9f")]
+[assembly: Guid("1ce59a99-d9a8-4485-9835-24ee8e7b436b")]
 
 // Version information for an assembly consists of the following four values:
 //

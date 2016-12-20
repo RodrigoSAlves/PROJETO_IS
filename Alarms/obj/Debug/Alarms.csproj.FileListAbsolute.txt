@@ -1,0 +1,11 @@
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\bin\Debug\Alarms.exe.config
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\bin\Debug\Alarms.exe
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\bin\Debug\Alarms.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\bin\Debug\M2Mqtt.Net.dll
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.Form1.resources
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.Properties.Resources.resources
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.csproj.GenerateResource.Cache
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.exe
+C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\Alarms\obj\Debug\Alarms.pdb

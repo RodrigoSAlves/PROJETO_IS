@@ -10,8 +10,11 @@ c:\users\eu\documents\visual studio 2015\Projects\Projeto_IS\SmartH2O_DU\obj\Deb
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\bin\Debug\SmartH2O_DU.exe.config
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\obj\Debug\SmartH2O_DU.exe
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\obj\Debug\SmartH2O_DU.pdb
+<<<<<<< HEAD
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\bin\Debug\SmartH2O_DU.exe
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\bin\Debug\SmartH2O_DU.pdb
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\bin\Debug\M2Mqtt.Net.dll
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\bin\Debug\M2Mqtt.Net.pdb
 C:\Users\Ana\Desktop\PROJETO_IS-master\PROJETO_IS\SmartH2O_DU\obj\Debug\SmartH2O_DU.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> origin/NEW-ALARM
