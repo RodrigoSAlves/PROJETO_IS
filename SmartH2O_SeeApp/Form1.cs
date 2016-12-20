@@ -26,5 +26,10 @@ namespace SmartH2O_SeeApp
         {
 
         }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
