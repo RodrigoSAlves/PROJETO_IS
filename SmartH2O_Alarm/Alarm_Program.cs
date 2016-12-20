@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
@@ -172,8 +174,6 @@ namespace SmartH2O_Alarm
             }
             Console.WriteLine(publishDoc.OuterXml);
             m_cClient.Publish(ALARM_NODE_NAME, Encoding.UTF8.GetBytes(publishDoc.OuterXml));
-
         }
-
     }
 }

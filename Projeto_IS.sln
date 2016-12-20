@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication_Infrastructure", "Communication_Infrastructure\Communication_Infrastructure.csproj", "{69A5C6D2-D4FB-45D8-AEBB-AE951C79A124}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_Alarm", "SmartH2O_Alarm\SmartH2O_Alarm.csproj", "{B98593ED-AAA3-42C4-9D4F-5A1794150B9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_SeeApp", "SmartH2O_SeeApp\SmartH2O_SeeApp.csproj", "{BDC99B66-5B40-4D3A-B781-8B47E4B989CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_Service", "SmartH2O_Service\SmartH2O_Service.csproj", "{6D21CF56-45E9-45A4-8D97-82AF65BBCD8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BDC99B66-5B40-4D3A-B781-8B47E4B989CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDC99B66-5B40-4D3A-B781-8B47E4B989CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDC99B66-5B40-4D3A-B781-8B47E4B989CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D21CF56-45E9-45A4-8D97-82AF65BBCD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D21CF56-45E9-45A4-8D97-82AF65BBCD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D21CF56-45E9-45A4-8D97-82AF65BBCD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D21CF56-45E9-45A4-8D97-82AF65BBCD8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,3496 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <alarms>
   <pH />
-  <Cl2 />
+  <Cl2>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="19" minute="50" milis="189" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="19" minute="50" milis="191" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="19" minute="50" milis="193" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="19" minute="50" milis="194" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="19" minute="50" milis="196" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="19" minute="50" milis="198" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="19" minute="50" milis="201" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="19" minute="51" milis="204" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="19" minute="51" milis="214" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="19" minute="51" milis="217" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="19" minute="52" milis="580" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="19" minute="52" milis="581" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="19" minute="52" milis="584" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="19" minute="52" milis="586" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="19" minute="57" milis="336" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="19" minute="57" milis="338" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="19" minute="57" milis="341" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="19" minute="57" milis="348" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="19" minute="57" milis="350" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="19" minute="58" milis="352" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="19" minute="58" milis="352" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="19" minute="58" milis="355" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="19" minute="58" milis="358" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="19" minute="58" milis="360" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="19" minute="58" milis="363" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="19" minute="58" milis="365" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="19" minute="58" milis="367" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="19" minute="58" milis="370" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="19" minute="58" milis="374" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="19" minute="58" milis="378" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="19" minute="58" milis="383" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="19" minute="58" milis="384" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="19" minute="58" milis="387" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="19" minute="59" milis="389" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="19" minute="59" milis="392" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="19" minute="59" milis="394" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="19" minute="59" milis="408" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="19" minute="59" milis="411" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="19" minute="59" milis="413" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="19" minute="59" milis="417" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="19" minute="59" milis="420" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="19" minute="59" milis="421" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="19" minute="59" milis="427" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="19" minute="59" milis="429" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="19" minute="59" milis="437" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="19" minute="59" milis="439" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="19" minute="59" milis="441" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="19" minute="59" milis="443" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="19" minute="59" milis="444" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="19" minute="59" milis="447" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="19" minute="59" milis="449" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="0" milis="456" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="0" milis="459" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="0" milis="478" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="0" milis="488" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="0" milis="498" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="0" milis="501" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="0" milis="503" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="0" milis="505" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="0" milis="507" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="0" milis="510" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="0" milis="512" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="0" milis="514" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="0" milis="516" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="0" milis="521" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="0" milis="527" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="0" milis="529" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="0" milis="531" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="0" milis="533" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="1" milis="552" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="1" milis="554" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="1" milis="556" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="1" milis="558" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="1" milis="560" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="1" milis="563" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="1" milis="572" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="1" milis="574" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="1" milis="591" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="1" milis="594" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="1" milis="620" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="1" milis="624" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="1" milis="641" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="1" milis="660" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="1" milis="664" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="1" milis="682" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="2" milis="687" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="2" milis="691" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="2" milis="701" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="2" milis="704" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="2" milis="706" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="2" milis="712" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="2" milis="714" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="2" milis="716" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="2" milis="718" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="2" milis="720" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="2" milis="741" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="2" milis="746" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="2" milis="748" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="3" milis="760" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="3" milis="762" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="3" milis="771" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="3" milis="773" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="3" milis="775" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="3" milis="777" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="3" milis="779" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="3" milis="790" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="3" milis="792" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="3" milis="795" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="3" milis="820" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="3" milis="822" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="3" milis="824" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="3" milis="828" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="3" milis="830" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="3" milis="832" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="3" milis="835" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="3" milis="841" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="3" milis="861" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="4" milis="863" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="4" milis="865" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="4" milis="884" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="4" milis="888" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="4" milis="906" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="4" milis="921" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="4" milis="935" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="4" milis="937" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="4" milis="942" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="4" milis="963" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="4" milis="972" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="4" milis="986" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="5" milis="988" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="5" milis="991" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="5" milis="995" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="5" milis="6" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="5" milis="8" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="5" milis="16" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="5" milis="21" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="5" milis="23" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="5" milis="25" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="5" milis="27" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="5" milis="29" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="5" milis="31" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="5" milis="35" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="6" milis="40" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="6" milis="42" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="6" milis="45" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="6" milis="55" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="6" milis="58" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="6" milis="60" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="6" milis="62" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="6" milis="64" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="6" milis="76" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="6" milis="80" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="6" milis="84" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="6" milis="99" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="6" milis="101" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="6" milis="105" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="6" milis="107" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="7" milis="115" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="7" milis="118" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="7" milis="120" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="7" milis="122" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="7" milis="124" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="7" milis="126" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="7" milis="139" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="7" milis="141" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="7" milis="143" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="7" milis="145" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="7" milis="147" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="7" milis="149" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="7" milis="151" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="7" milis="165" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="7" milis="167" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="7" milis="169" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="7" milis="171" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="7" milis="187" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="7" milis="197" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="8" milis="199" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="8" milis="212" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="8" milis="216" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="8" milis="218" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="8" milis="223" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="8" milis="227" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="8" milis="229" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="8" milis="249" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="8" milis="254" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="8" milis="256" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="8" milis="257" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="8" milis="260" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="8" milis="264" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="9" milis="277" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="9" milis="280" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="9" milis="282" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="9" milis="289" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="9" milis="309" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="9" milis="318" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="9" milis="320" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="9" milis="323" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="9" milis="325" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="9" milis="326" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="9" milis="328" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="9" milis="331" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="9" milis="333" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="9" milis="337" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="9" milis="340" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="9" milis="342" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="9" milis="348" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="9" milis="350" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="9" milis="368" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="10" milis="370" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="10" milis="372" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="10" milis="375" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="10" milis="387" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="10" milis="390" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="10" milis="391" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="10" milis="393" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="10" milis="398" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="10" milis="400" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="10" milis="402" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="10" milis="404" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="10" milis="418" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="10" milis="426" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="10" milis="437" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="10" milis="440" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="10" milis="449" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="10" milis="451" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="10" milis="469" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="11" milis="471" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="11" milis="488" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="11" milis="491" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="11" milis="494" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="11" milis="497" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="11" milis="499" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="11" milis="501" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="11" milis="503" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="11" milis="519" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="11" milis="521" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="11" milis="538" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="11" milis="540" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="11" milis="545" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="11" milis="547" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="11" milis="548" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="11" milis="551" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="11" milis="555" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="12" milis="559" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="12" milis="561" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="12" milis="563" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="12" milis="567" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="12" milis="584" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="12" milis="586" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="12" milis="600" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="12" milis="602" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="12" milis="606" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="12" milis="608" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="12" milis="609" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="12" milis="618" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="12" milis="620" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="12" milis="622" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="12" milis="625" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="12" milis="627" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="13" milis="637" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="13" milis="639" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="13" milis="640" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="13" milis="649" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="13" milis="653" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="13" milis="658" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="13" milis="668" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="13" milis="671" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="13" milis="673" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="13" milis="675" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="13" milis="677" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="13" milis="687" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="13" milis="690" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="13" milis="692" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="13" milis="694" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="13" milis="696" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="13" milis="700" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="13" milis="707" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="14" milis="712" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="14" milis="714" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="14" milis="716" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="14" milis="719" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="14" milis="721" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="14" milis="723" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="14" milis="744" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="14" milis="763" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="14" milis="765" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="14" milis="768" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="14" milis="773" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="14" milis="785" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="14" milis="787" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="14" milis="804" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="14" milis="815" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="15" milis="817" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="15" milis="836" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="15" milis="838" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="15" milis="840" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="15" milis="841" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="15" milis="846" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="15" milis="850" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="15" milis="863" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="15" milis="867" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="15" milis="870" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="15" milis="872" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="15" milis="885" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="15" milis="887" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="15" milis="889" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="15" milis="893" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="16" milis="895" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="16" milis="898" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="16" milis="900" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="16" milis="904" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="16" milis="906" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="16" milis="913" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="16" milis="932" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="16" milis="936" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="16" milis="952" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="16" milis="964" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="16" milis="966" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="16" milis="968" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="16" milis="971" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="16" milis="983" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="16" milis="985" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="17" milis="990" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="17" milis="994" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="17" milis="997" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="17" milis="4" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="17" milis="7" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="17" milis="9" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="17" milis="11" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="17" milis="13" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="17" milis="15" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="17" milis="18" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="17" milis="20" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="17" milis="22" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="17" milis="25" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="17" milis="27" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="17" milis="33" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="17" milis="44" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="17" milis="46" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="18" milis="54" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="18" milis="56" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="18" milis="58" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="18" milis="62" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="18" milis="64" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="18" milis="80" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="18" milis="82" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="18" milis="85" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="18" milis="87" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="18" milis="89" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="18" milis="91" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="18" milis="103" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="18" milis="114" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="18" milis="117" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="18" milis="123" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="18" milis="125" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="19" milis="127" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="19" milis="134" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="19" milis="136" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="19" milis="154" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="19" milis="158" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="19" milis="159" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="19" milis="161" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="19" milis="163" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="19" milis="166" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="19" milis="173" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="19" milis="176" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="19" milis="193" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="19" milis="195" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="19" milis="197" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="19" milis="216" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="19" milis="219" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="19" milis="221" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="20" milis="222" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="20" milis="228" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="20" milis="232" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="20" milis="238" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="20" milis="239" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="20" milis="241" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="20" milis="244" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="20" milis="247" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="20" milis="249" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="20" milis="254" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="20" milis="256" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="20" milis="258" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="20" milis="272" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="20" milis="277" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="20" milis="281" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="21" milis="291" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="21" milis="295" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="21" milis="297" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="21" milis="302" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="21" milis="304" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="21" milis="312" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="21" milis="317" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="21" milis="322" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="21" milis="324" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="21" milis="343" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="21" milis="345" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="21" milis="347" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="22" milis="355" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="22" milis="357" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="22" milis="362" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="22" milis="364" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="22" milis="371" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="22" milis="374" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="22" milis="382" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="22" milis="384" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="22" milis="386" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="22" milis="389" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="22" milis="392" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="22" milis="395" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="22" milis="399" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="22" milis="401" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="22" milis="403" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="23" milis="405" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="23" milis="408" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="23" milis="410" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="23" milis="413" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="23" milis="415" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="23" milis="417" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="23" milis="431" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="23" milis="434" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="23" milis="442" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="23" milis="447" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="23" milis="448" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="23" milis="456" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="23" milis="468" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="23" milis="471" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="23" milis="476" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="24" milis="480" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="24" milis="482" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="24" milis="484" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="24" milis="498" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="24" milis="500" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="24" milis="508" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="24" milis="511" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="24" milis="512" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="24" milis="519" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="24" milis="521" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="24" milis="524" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="24" milis="528" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="24" milis="550" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="24" milis="557" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="24" milis="559" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="24" milis="568" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="25" milis="583" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="25" milis="585" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="25" milis="587" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="25" milis="598" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="25" milis="606" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="25" milis="609" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="25" milis="611" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="25" milis="613" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="25" milis="619" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="25" milis="621" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="25" milis="623" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="25" milis="626" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="26" milis="630" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="26" milis="633" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="26" milis="635" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="26" milis="648" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="26" milis="649" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="26" milis="654" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="26" milis="656" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="26" milis="658" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="26" milis="660" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="26" milis="661" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="26" milis="663" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="26" milis="666" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="26" milis="668" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="26" milis="678" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="26" milis="681" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="26" milis="683" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="26" milis="698" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="27" milis="700" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="27" milis="705" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="27" milis="707" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="27" milis="709" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="27" milis="714" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="27" milis="718" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="27" milis="720" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="27" milis="723" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="27" milis="725" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="27" milis="729" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="27" milis="731" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="27" milis="733" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="27" milis="735" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="27" milis="736" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="27" milis="739" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="27" milis="741" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="28" milis="776" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="28" milis="779" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="28" milis="786" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="28" milis="803" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="28" milis="805" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="28" milis="813" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="28" milis="823" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="28" milis="825" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="28" milis="827" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="28" milis="829" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="28" milis="835" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="28" milis="837" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="28" milis="839" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="28" milis="841" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="28" milis="843" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="28" milis="845" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="28" milis="848" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="29" milis="853" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="29" milis="855" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="29" milis="858" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="29" milis="860" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="29" milis="864" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="29" milis="866" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="29" milis="875" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="29" milis="877" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="29" milis="879" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="29" milis="881" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="29" milis="885" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="29" milis="887" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="29" milis="892" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="29" milis="897" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="29" milis="901" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="30" milis="903" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="30" milis="922" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="30" milis="925" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="30" milis="927" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="30" milis="929" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="30" milis="937" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="30" milis="955" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="30" milis="957" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="30" milis="959" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="30" milis="962" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="30" milis="964" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="30" milis="966" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="30" milis="969" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="30" milis="971" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="31" milis="974" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="31" milis="983" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="31" milis="985" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="31" milis="989" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="31" milis="991" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="31" milis="993" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="31" milis="996" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="31" milis="999" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="31" milis="12" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="31" milis="24" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="31" milis="30" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="31" milis="32" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="31" milis="38" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="31" milis="40" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="32" milis="42" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="32" milis="44" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="32" milis="52" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="32" milis="72" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="32" milis="91" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="32" milis="102" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="32" milis="104" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="32" milis="107" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="32" milis="109" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="32" milis="111" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="32" milis="113" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="32" milis="115" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="32" milis="118" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="32" milis="122" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="32" milis="123" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="33" milis="127" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="33" milis="136" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="33" milis="138" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="33" milis="140" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="33" milis="143" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="33" milis="149" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="33" milis="153" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="33" milis="155" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="33" milis="157" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="33" milis="172" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="33" milis="174" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="33" milis="179" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="33" milis="183" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="33" milis="185" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="33" milis="187" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="33" milis="189" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="34" milis="191" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="34" milis="195" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="34" milis="199" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="34" milis="211" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="34" milis="213" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="34" milis="230" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="34" milis="239" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="34" milis="241" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="34" milis="252" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="34" milis="254" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="34" milis="256" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="34" milis="258" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="34" milis="261" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="34" milis="264" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="34" milis="282" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="35" milis="300" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="35" milis="302" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="35" milis="306" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="35" milis="307" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="35" milis="310" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="35" milis="313" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="35" milis="316" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="35" milis="317" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="35" milis="320" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="35" milis="322" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="35" milis="340" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="35" milis="349" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="35" milis="352" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="35" milis="354" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="35" milis="360" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="36" milis="367" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="36" milis="371" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="36" milis="373" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="36" milis="375" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="36" milis="377" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="20" minute="36" milis="379" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="36" milis="381" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="36" milis="386" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="36" milis="390" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="36" milis="392" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="36" milis="400" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="36" milis="404" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="36" milis="406" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="36" milis="409" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="36" milis="426" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="36" milis="429" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="36" milis="431" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="37" milis="443" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="37" milis="460" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="37" milis="462" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="37" milis="466" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="37" milis="470" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="37" milis="472" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="37" milis="473" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="37" milis="476" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="37" milis="478" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="37" milis="504" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="37" milis="511" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="37" milis="513" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="37" milis="531" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="37" milis="533" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="37" milis="536" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="37" milis="538" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="38" milis="541" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="38" milis="545" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="38" milis="549" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="20" minute="38" milis="554" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="38" milis="559" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="38" milis="562" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="38" milis="564" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="38" milis="566" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="38" milis="580" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="38" milis="582" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="38" milis="584" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="38" milis="586" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="38" milis="588" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="38" milis="593" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="38" milis="599" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="38" milis="602" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="38" milis="604" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="39" milis="606" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="39" milis="620" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="39" milis="631" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="39" milis="642" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="39" milis="650" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="39" milis="652" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="39" milis="658" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="39" milis="660" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="39" milis="666" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="39" milis="670" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="39" milis="672" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="39" milis="675" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="39" milis="689" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="39" milis="702" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="39" milis="704" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="40" milis="708" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="40" milis="709" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="40" milis="715" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="40" milis="717" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="20" minute="40" milis="721" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="40" milis="723" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="40" milis="726" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="40" milis="750" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="40" milis="752" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="40" milis="754" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="40" milis="756" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="40" milis="757" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="40" milis="760" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="20" minute="40" milis="763" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="40" milis="766" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="40" milis="768" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="40" milis="770" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="41" milis="774" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="41" milis="792" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="41" milis="794" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="41" milis="797" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="41" milis="801" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="41" milis="804" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="41" milis="806" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="41" milis="814" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="41" milis="834" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="41" milis="835" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="41" milis="839" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="41" milis="843" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="41" milis="846" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="42" milis="848" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="20" minute="42" milis="853" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="42" milis="865" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="42" milis="868" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="42" milis="872" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="20" minute="42" milis="876" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="42" milis="881" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="20" minute="42" milis="884" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="42" milis="891" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="42" milis="893" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="42" milis="901" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="20" minute="42" milis="903" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="20" minute="42" milis="905" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="42" milis="922" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="42" milis="924" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="42" milis="926" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="43" milis="929" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="43" milis="933" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="43" milis="935" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="43" milis="938" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="43" milis="940" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="43" milis="942" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="43" milis="944" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="43" milis="947" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="20" minute="43" milis="950" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="43" milis="955" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="20" minute="43" milis="964" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="43" milis="985" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="20" minute="43" milis="992" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="43" milis="1" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="20" minute="43" milis="3" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="44" milis="21" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="44" milis="23" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="20" minute="44" milis="28" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="20" minute="44" milis="30" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="44" milis="32" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="20" minute="44" milis="34" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="20" minute="44" milis="37" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="44" milis="40" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="44" milis="43" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="20" minute="44" milis="61" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="44" milis="70" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="44" milis="72" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="20" minute="44" milis="76" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="20" minute="44" milis="78" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="20" minute="44" milis="80" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="44" milis="81" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="44" milis="90" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="20" minute="45" milis="93" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="20" minute="45" milis="100" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="45" milis="103" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="20" minute="45" milis="111" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="20" minute="45" milis="121" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="45" milis="123" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="20" minute="45" milis="125" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="45" milis="147" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="20" minute="45" milis="181" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="45" milis="201" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="20" minute="45" milis="203" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="45" milis="209" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="20" minute="45" milis="213" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="20" minute="45" milis="218" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="20" minute="45" milis="220" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="45" milis="222" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="45" milis="228" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="20" minute="46" milis="233" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="20" minute="46" milis="242" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="20" minute="46" milis="245" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="20" minute="46" milis="248" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="21" minute="7" milis="17" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="8" milis="20" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="21" minute="8" milis="21" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="21" minute="8" milis="23" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="21" minute="8" milis="57" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="21" minute="12" milis="659" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="21" minute="12" milis="661" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="21" minute="12" milis="667" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="21" minute="20" milis="274" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="21" minute="20" milis="277" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="21" minute="20" milis="281" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="21" minute="20" milis="283" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="21" milis="554" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="21" minute="21" milis="560" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="21" minute="21" milis="780" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="21" minute="21" milis="793" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="21" minute="21" milis="805" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="21" milis="807" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="21" minute="22" milis="809" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="21" minute="22" milis="810" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="21" minute="22" milis="813" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="21" minute="22" milis="819" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="21" minute="26" milis="147" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="21" minute="26" milis="153" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="21" minute="26" milis="155" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="21" minute="26" milis="157" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="21" minute="26" milis="162" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="21" minute="27" milis="168" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.2" day="19" month="12" year="2016" hour="21" minute="27" milis="171" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="21" minute="27" milis="172" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="21" minute="27" milis="178" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.4" day="19" month="12" year="2016" hour="21" minute="27" milis="181" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.3" day="19" month="12" year="2016" hour="21" minute="27" milis="183" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="27" milis="185" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="21" minute="27" milis="187" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="21" minute="28" milis="204" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="21" minute="28" milis="207" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="21" minute="28" milis="217" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="21" minute="28" milis="218" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="21" minute="32" milis="242" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="21" minute="32" milis="245" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="21" minute="32" milis="250" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.4" day="19" month="12" year="2016" hour="21" minute="32" milis="58" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="21" minute="32" milis="60" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.1" day="19" month="12" year="2016" hour="21" minute="32" milis="63" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="21" minute="32" milis="66" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="21" minute="35" milis="455" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="36" milis="122" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.1" day="19" month="12" year="2016" hour="21" minute="36" milis="124" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="21" minute="36" milis="133" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.6" day="19" month="12" year="2016" hour="21" minute="36" milis="135" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="21" minute="37" milis="715" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="21" minute="37" milis="717" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.2" day="19" month="12" year="2016" hour="21" minute="37" milis="734" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="21" minute="37" milis="737" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="37" milis="738" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="21" minute="37" milis="740" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="21" minute="37" milis="751" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.0" day="19" month="12" year="2016" hour="21" minute="37" milis="752" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.1" day="19" month="12" year="2016" hour="21" minute="37" milis="757" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="21" minute="37" milis="762" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="21" minute="37" milis="764" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.0" day="19" month="12" year="2016" hour="21" minute="37" milis="767" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.7" day="19" month="12" year="2016" hour="21" minute="38" milis="774" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="21" minute="38" milis="777" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.8" day="19" month="12" year="2016" hour="21" minute="38" milis="779" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="21" minute="38" milis="782" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.2" day="19" month="12" year="2016" hour="21" minute="38" milis="783" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="21" minute="38" milis="785" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="21" minute="38" milis="788" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.4" day="19" month="12" year="2016" hour="21" minute="38" milis="790" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.7" day="19" month="12" year="2016" hour="21" minute="38" milis="802" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="21" minute="38" milis="803" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.5" day="19" month="12" year="2016" hour="21" minute="38" milis="806" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="21" minute="38" milis="808" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.8" day="19" month="12" year="2016" hour="21" minute="38" milis="811" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="21" minute="38" milis="816" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="21" minute="38" milis="818" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.3" day="19" month="12" year="2016" hour="21" minute="38" milis="820" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.8" day="19" month="12" year="2016" hour="21" minute="42" milis="442" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.3" day="19" month="12" year="2016" hour="21" minute="42" milis="444" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.0" day="19" month="12" year="2016" hour="21" minute="42" milis="446" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.5" day="19" month="12" year="2016" hour="21" minute="42" milis="449" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.5" day="19" month="12" year="2016" hour="21" minute="42" milis="452" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.1" day="19" month="12" year="2016" hour="21" minute="47" milis="299" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.4" day="19" month="12" year="2016" hour="21" minute="50" milis="119" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.6" day="19" month="12" year="2016" hour="21" minute="52" milis="12" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="10.7" day="19" month="12" year="2016" hour="21" minute="53" milis="921" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="21" minute="53" milis="924" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.3" day="19" month="12" year="2016" hour="21" minute="53" milis="928" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="21" minute="53" milis="930" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="7.7" day="19" month="12" year="2016" hour="21" minute="54" milis="932" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.2" day="19" month="12" year="2016" hour="21" minute="54" milis="934" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="9.6" day="19" month="12" year="2016" hour="21" minute="54" milis="938" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.6" day="19" month="12" year="2016" hour="21" minute="57" milis="848" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.8" day="19" month="12" year="2016" hour="21" minute="57" milis="862" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+    <alarm type="CI2">
+      <entry value="8.5" day="19" month="12" year="2016" hour="21" minute="57" milis="885" />
+      <condition condition="between" trigger_value="7" trigger_value2="11" />
+    </alarm>
+  </Cl2>
   <NH3>
     <alarm type="CI2">
       <entry value="10.8" day="16" month="12" year="2016" hour="15" minute="16" milis="811" />

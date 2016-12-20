@@ -15,14 +15,10 @@ namespace SmartH2O_DLog
     {
         public static String DU_NODE_NAME = "SENSOR_NODE";
         public static String ALARM_NODE_NAME = "ALARM_NODE";
-        public static String ALARM_LOG_FILE_NAME = "alarms-data.xml";
-        public static String PARAM_LOG_FILE_NAME = "param-data.xml";
         public static MqttClient m_cClient = new MqttClient(IPAddress.Parse("127.0.0.1"));
         private static string[] m_strTopicsInfo = { DU_NODE_NAME, ALARM_NODE_NAME };
         private static byte[] qosLevels = { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE };
-        private XmlDocument params_data;
-        private XmlDocument alarms_data;
-        private XmlDocument temp_data;
+        private WebClient webClient;
 
 
         static void Main(string[] args)
@@ -33,9 +29,6 @@ namespace SmartH2O_DLog
 
         private void init()
         {
-            initLogXMLFiles();
-
-            temp_data = new XmlDocument();
             m_cClient.Connect(Guid.NewGuid().ToString());
             if (!m_cClient.IsConnected)
             {
@@ -46,58 +39,9 @@ namespace SmartH2O_DLog
             m_cClient.Subscribe(m_strTopicsInfo, qosLevels);
 
             m_cClient.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
-            
-           
-        }
 
-        private void initLogXMLFiles()
-        {
-            if (!File.Exists(ALARM_LOG_FILE_NAME))
-            {
-                createBasicAlarmXMLFile();
-            }
-            else {
-                alarms_data = new XmlDocument();
-                alarms_data.Load(ALARM_LOG_FILE_NAME);
-            }
+            webClient = new WebClient();
 
-
-            if (!File.Exists(PARAM_LOG_FILE_NAME))
-            {
-                createBasicParamXMLFile();
-            }
-            else {
-                params_data = new XmlDocument();
-                params_data.Load(PARAM_LOG_FILE_NAME);                
-            }
-        }
-
-        private void createBasicAlarmXMLFile()
-        {   
-            alarms_data = new XmlDocument();
-            XmlDeclaration declaration = alarms_data.CreateXmlDeclaration("1.0", "utf-8", null);
-            alarms_data.AppendChild(declaration);
-            XmlElement parent_alarms = alarms_data.CreateElement("alarms");
-            parent_alarms.AppendChild(alarms_data.CreateElement("pH"));
-            parent_alarms.AppendChild(alarms_data.CreateElement("Cl2"));
-            parent_alarms.AppendChild(alarms_data.CreateElement("NH3"));
-            alarms_data.AppendChild(parent_alarms);
-            alarms_data.Save(ALARM_LOG_FILE_NAME);
-        }
-
-        private void createBasicParamXMLFile()
-        {
-            params_data = new XmlDocument();
-            XmlDeclaration declaration = params_data.CreateXmlDeclaration("1.0", "utf-8", null);
-            params_data.AppendChild(declaration);
-            XmlElement parent_paramenter = params_data.CreateElement("parameters");
-            parent_paramenter.AppendChild(params_data.CreateElement("pH"));
-            parent_paramenter.AppendChild(params_data.CreateElement("Cl2"));
-            parent_paramenter.AppendChild(params_data.CreateElement("NH3"));
-            
-            params_data.AppendChild(parent_paramenter);
-
-            params_data.Save(PARAM_LOG_FILE_NAME);
         }
 
         public void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
@@ -107,75 +51,31 @@ namespace SmartH2O_DLog
 
             if (e.Topic == DU_NODE_NAME)
             {
-                recievedDUMessage(e.Message);
+                postParameterEntry(e.Message);
             }
 
             if (e.Topic == ALARM_NODE_NAME)
             {
-                recievedAlarmMessage(e.Message);
+                postAlarmTriggered(e.Message);
             }
         }
 
-        private void recievedDUMessage(byte[] message)
+        private void postAlarmTriggered(byte[] message) {
+            Console.WriteLine("Alarm:\n"+Encoding.UTF8.GetString(message));
+            webClient.Headers["Content-type"] = "application/xml";
+            byte[] result = webClient.UploadData("http://localhost:55959/alarm/postAlarm", "POST", message);
+            Console.WriteLine(Encoding.UTF8.GetString(result));
+
+        }
+
+        private void postParameterEntry(byte[] message)
         {
-            temp_data.LoadXml(Encoding.UTF8.GetString(message));
-            String str_sensorType = temp_data.SelectSingleNode("/sensor").Attributes["type"].Value;
+            Console.WriteLine("Parameter:\n"+Encoding.UTF8.GetString(message));
+            webClient.Headers["Content-type"] = "application/xml";
+            byte[] result = webClient.UploadData("http://localhost:55959/parameter/postEntry", "POST", message);
+            Console.WriteLine(Encoding.UTF8.GetString(result));
 
-            switch (str_sensorType)
-            {
-                case "PH":
-                    {
-                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/pH");
-                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
-                    }
-                    break;
-                case "NH3":
-                    {
-                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/NH3");
-                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
-                    }
-                    break;
-                case "CI2":
-                    {
-                        XmlElement list = (XmlElement)params_data.SelectSingleNode("/parameters/Cl2");
-                        list.AppendChild(params_data.ImportNode(temp_data.SelectSingleNode("/sensor/entry"), false));
-                    }
-                    break;
-            }
-            params_data.Save(PARAM_LOG_FILE_NAME);
         }
 
-        private void recievedAlarmMessage(byte[] message)
-        {
-            
-            temp_data.LoadXml(Encoding.UTF8.GetString(message));
-            String str_sensorType = temp_data.SelectSingleNode("/alarm").Attributes["type"].Value;
-
-            switch (str_sensorType)
-            {
-                case "PH":
-                    {
-                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/pH");
-                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
-                    }
-                    break;
-                case "NH3":
-                    {
-                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/NH3");
-                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
-
-                    }
-                    break;
-                case "CI2":
-                    {
-                        XmlElement list = (XmlElement)alarms_data.SelectSingleNode("/alarms/Cl2");
-                        list.AppendChild(alarms_data.ImportNode(temp_data.SelectSingleNode("/alarm"), true));
-
-                    }
-                    break;
-            }
-            alarms_data.Save(ALARM_LOG_FILE_NAME);
-        }
-        
     }
 }
