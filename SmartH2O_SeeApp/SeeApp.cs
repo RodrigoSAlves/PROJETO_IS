@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace SmartH2O_SeeApp
 {
-    static class Program
+    static class SeeApp
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace SmartH2O_SeeApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SeeAppForm1());
         }
     }
 }

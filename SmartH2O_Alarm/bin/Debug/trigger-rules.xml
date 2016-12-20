@@ -3,7 +3,8 @@
   <sensor tipo="PH">
     
       <conditions>
-        <condition ativo="false" valorReferencia="6" operator="less"></condition>
+        <condition ativo="false" valorReferencia="5" operator="less"></condition>
+        <condition ativo="true" valorReferencia="8" operator="greater"></condition>
       </conditions>
   </sensor>
  
@@ -16,7 +17,6 @@
   </sensor>
 
   <sensor tipo="CI2">
-    
     <conditions>
       <condition ativo="true" valorReferencia="7" operator="between" valorReferencia2="11"></condition>
     </conditions>
